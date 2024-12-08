@@ -1,0 +1,84 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Cor de fundo clara */
+  background-color: #ffffffd6; /* Adicione o caminho para a sua imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #b5105d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: hsla(0, 8%, 85%, 0.908);
+  
+ text-decoration: none;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+  font-size: 14px;
+}
+
+/* Estilos para o formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #4e4848d6;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #4e4848d6;
+}
+
+form button:hover {
+  background-color: #444;
+}
